@@ -1,0 +1,32 @@
+*{
+  color: #000;
+  margin: 0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+
+nav{
+  text-align: center;
+  width: 100%;
+}
+
+.navbar li{
+  text-decoration: none;
+  display: inline;
+  padding: 0px 10px;
+}
+
+.navbar a{
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 80px;
+}
+
+.navbar a:hover{
+  text-decoration: underline;
+}
