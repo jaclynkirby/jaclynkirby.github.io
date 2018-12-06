@@ -7,11 +7,24 @@
 
 body{
   background-image: url(../img/background.jpg);
-  background-size: cover;
+  background-attachment: fixed;
   width: 65%;
-  margin: 0 auto;
+  margin:0 auto;
 }
 
+@media(min-width: 1080px){
+  body{
+    background-size: cover;
+  }
+}
+
+@media(max-width: 1079px){
+  body{
+    background-size: contain;
+  }
+}
+
+/*NAVBAR*/
 nav{
   text-align: center;
   width: 100%;
@@ -33,6 +46,22 @@ nav{
   text-decoration: underline;
 }
 
+/*HOMEPAGE*/
+div.bio{
+  text-align: center;
+}
+
 div.bio img{
   padding:10px;
+}
+
+/*JOURNAL ENTRIES*/
+div.journal-entry{
+  text-align: center;
+  padding:20px 0;
+}
+
+div.journal-entry h2{
+  text-decoration: underline;
+  padding-bottom: 5px;
 }
