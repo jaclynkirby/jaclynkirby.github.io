@@ -86,3 +86,8 @@ div.center-pic img{
   width: 75%;
   height: auto;
 }
+
+.rotate-90{
+  transform: rotate(90deg);
+  margin: 70px 0;
+}
